@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador Lostiano</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="shortcut icon" href="ico\favicon.ico">
+</head>
+
+<body class="grid_container">
+
+    <header class="header">
+        <div class="contenedor_imagen"> 
+            <img src="image\LostoBot 300dpi sin fond.png" alt="Lostbot">
+        </div>
+    </header>
+
+    <form id="form" method="post">
+        <table>
+            <tbody>
+                <tr>
+                    <td class="key">
+                        Nación:
+                    </td>
+                    <td class="value">
+                        <select id="naciones">
+                            <option value="1" selected>Califato Árabe</option>
+                            <option value="2">Ciudades Libres Helénicas</option>
+                            <option value="3">Curacazgo Inca</option>
+                            <option value="4">Dinastía Xia</option>
+                            <option value="5">Escandinavia</option>
+                            <option value="6">Imperio Kanemú</option>
+                            <option value="7">Imperio Inmortal</option>
+                            <option value="8">Mongoles Errantes</option>
+                            <option value="9">Nómadas Esquimo</option>
+                            <option value="10">Nueva Alianza</option>
+                            <option value="11">Pueblo Galos</option>
+                            <option value="12">Reino Champai</option>
+                            <option value="13">Reino de Dios</option>
+                            <option value="14">República Romana</option>
+                            <option value="15">Shogunado de Sur</option>
+                            <option value="16">Sublime Estado Otomano</option>
+                            <option value="17">Tribu Maorí</option>
+                            <option value="18">Unión de Repúblicas Eslavas</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="contenedor_boton">
+                            <button type="button" id="el_boton">Generar</button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+
+    <div class="resultado">
+        <p id="nombres"></p>
+    </div>
+
+    <footer class="footer">
+
+    </footer>
+
+    <script src="js\app.js"></script>
+</body>
+
+</html>
